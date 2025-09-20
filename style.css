@@ -1,0 +1,303 @@
+/* Basic Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Header and Top Bar */
+.top-bar {
+    background-color: #2e2e2e;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 14px;
+}
+
+.header {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 20px;
+}
+
+.logo img {
+    height: 40px; /* Adjust as needed */
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+    transition: color 0.3s;
+    color: #000;
+}
+
+.nav-links a:hover {
+    color: #007bff; /* Example hover color */
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-icons a {
+    font-size: 16px;
+    color: #555;
+}
+
+.nav-icons a:last-child {
+    font-weight: 600;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: 50px auto;
+    padding: 0 20px;
+    gap: 40px;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.shop-now-btn {
+    background-color: #000;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.3s;
+}
+
+.shop-now-btn:hover {
+    background-color: #444;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.product-note {
+  background-color: #2f4f7f; /* Dark blue background */
+  color: white;
+  display: flex;
+  padding: 20px;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.image-container img {
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.note-container {
+  margin-left: 20px;
+}
+
+.note-container h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.note-container p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.shop-button {
+  background-color: #00bfa5; /* Teal button */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.shop-button:hover {
+  opacity: 0.9;
+}
+.top-collections {
+    text-align: center;
+    padding: 20px;
+}
+
+.top-collections h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.collections {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    height: auto;
+}
+
+.collection {
+    position: relative;
+    width: 30%;
+    height: 20%;
+}
+
+.collection img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.label {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.label h3 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.label p {
+    font-size: 12px;
+    margin: 0;
+}
+footer {
+  background-color: #2a2a2a;
+  color: white;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.about, .quick-links, .customer-care, .newsletter {
+  width: 25%;
+}
+
+h2, h3 {
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+input[type="email"] {
+  padding: 10px;
+  border: none;
+  width: calc(100% - 100px);
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: teal;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.social-links a {
+  margin-right: 10px;
+}
+
+.facebook-icon, .instagram-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+}
